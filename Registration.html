@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RegistrationForm</title>
+        <style>
+            h1{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                font-weight: 600px;
+            }
+            h2{
+                color:blue;
+                text-align: center;
+                padding-top: 0%;
+            }
+            h5{
+                color: blue;
+                text-align: center;
+            }
+            h3{
+                color: blue;
+                border: solid blue; 
+                text-align-last: center;
+                max-width: 500px;
+                margin:auto;
+            }
+            body{
+                background-image: url(https://tse4.mm.bing.net/th?id=OIP.wRiMOyCAo7_GHWT00zsttgHaEK&pid=Api&P=0&h=220);
+                background-size: 1500px;
+            }
+             
+        </style>
+    </head>
+
+    <body>
+        <h1>JPM</h1>
+        <h2>TECHNOLOGIES</h3>
+        <h5>KNOWLEDE IS DIVINE</h5>
+        <h3>STUDENT INFORMATION FORM</h3>
+         
+        
+        <fieldset>
+         <legend>StudentRegistrationForm</legend>
+        <fieldset>
+            <legend>StudentDetails</legend> 
+        
+        <label>Date:-</label>
+        <input type="text" year="dd/mm/yy" name="date" size="00/00/00"><br>  <br>
+
+        <label>FirstName:</label>
+        <input type="text" name="FirstName"  size="20" required><br> <br>
+        <label>MiddleName</label>
+        <input type="text" name="MiddleName" size="20" required><br> <br>
+        <label>LastName</label>
+        <input type="text" name="LastName"  size="20" required><br>  <br>
+
+        <label>Gender:-</label><br> <br>
+         Male:<input type="radio" name="Male" required>
+         Female:<input type="radio" name="Female"required>
+         <br> <br>
+
+        <label>Mobile:</label>
+        <input type="text" name="Mobile"    value="+91" size="2"> 
+        <input type="text" name="Mobile"  size="10"required> <br> <br>
+        <label>Email-ID:</label>
+        <input type="text" id="email" name="Email-ID" size="25" required><br> <br>
+        <label>Address:-</label>
+        <textarea cols=80  rows="5" values="Address" required></textarea><br> <br>
+
+        </fieldset>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>EducationalQualification</legend>
+            <br> <br>
+            <label>Qualification</label>
+            <input type="text" name="Qualification" size="20" required> <br> <br>
+            <label>Year Of Passing</label>
+            <input type="text" name="yearofpassing"  size="12" required><br>  <br> 
+        </fieldset>
+        
+        <fieldset>
+            <legend>Course</legend>
+            Course:- <select name ="course" id="courseid"  arial-placeholder="course" required>
+              <option>Java Full Stacker</option>
+              <option>Front-End-Developer</option>
+              <option>Backand-End-Developer</option>
+              <option>Java</option>
+              <option>AdvanceJava</option>
+              <option>.NET </option>
+              <option>Spring</option>
+              <option>SpringBoot</option>
+              <option>Microservices</option>
+              <option>HTML</option>
+              <option>CSS</option>
+              <option>JavaScript</option>
+              <option>BootStrap</option>
+              <option>React.js</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;<label>Fees:-</label>  
+           <input type="text" name="text" size="12" required>
+        <br> <br>
+           <label>Experiences</label>
+           <input type="radio" name="Experiences"  placeholder="Experiences" required>
+           <label>Fresher</label>
+           <input type="radio" name="Fresher"  placeholder="Fresher" required> <br>  <br>
+           <label>Pref.Timing:</label>
+           <input type="text" name="PrefTiming" size="12"required> <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>How Do You Know About JPM TECHNOLOGIES</legend>
+            NewsPaper:-<input type="checkbox" name="NewsPaper" placeholder="NewsPaper">
+            Pamphlet:-<input  type="checkbox" name="Pamphlet"  placeholder="Pamphlet">
+            Banner:-<input    type="checkbox" name="Banner"    placeholder="Banner">
+            Friends:-<input   type="checkbox" name="Friends"   placeholder="Friends"> <br> <br>
+            Old Student:-<input type="checkbox" name="oldstudent" placeholder="oldstudent">
+            Sulekha:-<input type="checkbox"  name="Sulekha"       placeholder="Sulekha">
+            Google:-<input type="checkbox"  name="Google"       placeholder="Google">
+            Web:-<input type="checkbox"  name="Web"       placeholder="Web">
+            <br> <br>
+            Student Signature:-<input type="text" name="Studentsignature"  placeholder="Studentsignature">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           Counselor Signature:-<input type="text" name="Counselorsignature" placeholder="Counselorsignature">
+           <input type="submit" name="button" value="submit">
+        </fieldset>
+
+        </fieldset>
+    
+    
+    </body>
+</html>
